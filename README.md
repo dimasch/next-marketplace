@@ -1,6 +1,7 @@
 # A hybrid (SSG + SSR) example application (Marketplace)
 Demonstrations of the Next.js with React 17 features support (new JSX transform / getStaticProps and getServerSideProps Fast Refresh). And my React.js skills :)
 
+![Demo](https://i.imgur.com/lZmuYT2.png)
 
 ## How to use
 
@@ -109,7 +110,6 @@ cp .env.local.example .env.local
 
 Then set each variable on `.env.local`:
 
-- `STRAPI_PREVIEW_SECRET` can be any random string (but avoid spaces), like `MY_SECRET` - this is used for [Preview Mode](https://nextjs.org/docs/advanced-features/preview-mode).
 - `NEXT_PUBLIC_STRAPI_API_URL` should be set as `http://localhost:1337` (no trailing slash).
 
 ### Step 8. Run Next.js in development mode
