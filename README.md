@@ -1,6 +1,7 @@
 # A hybrid (SSG + SSR) example application (Marketplace)
 Demonstrations of the Next.js with React 17 features support (new JSX transform / getStaticProps and getServerSideProps Fast Refresh). And my React.js skills :)
 
+![Demo](https://i.imgur.com/IQSehEP.png)
 
 ## How to use
 
@@ -64,6 +65,8 @@ Next, add these fields (you don't have to modify the settings unless specified):
 - **Media** field called **`image`** (**Single media**)
 - **UID** field called **`slug`** (attached field should be **title**)
 - **Relation** field called **`vendor`** (Product **has one** Vendor)
+![Relation](https://i.imgur.com/V2cKGek.png)
+
 - **Enumeration** field `status` (the values should be **enabled** and **disabled**)
 
 Then click **Finish** and **Save**.
@@ -78,11 +81,17 @@ Then select: `count`, `find`, and `findone` permissions for both **Vendor** and 
 
 Next, select **Products** and click **Add New Product**.
 
-- We recommend creating at least **8 Product records**.
+- I will recommend creating at least **8 Product records**.
+
+![Products](https://i.imgur.com/yPIqSa2.png)
+
 - Use dummy data for the text.
 - You can write markdown for the **content** field.
 - For the images, you can download ones from [Unsplash](https://unsplash.com/).
 - Pick the **Vendors** you created earlier.
+
+![Vendors](https://i.imgur.com/ENZ0krb.png)
+
 - Set the **status** field to be **enabled**.
 
 ### Step 7. Set up environment variables
@@ -101,7 +110,6 @@ cp .env.local.example .env.local
 
 Then set each variable on `.env.local`:
 
-- `STRAPI_PREVIEW_SECRET` can be any random string (but avoid spaces), like `MY_SECRET` - this is used for [Preview Mode](https://nextjs.org/docs/advanced-features/preview-mode).
 - `NEXT_PUBLIC_STRAPI_API_URL` should be set as `http://localhost:1337` (no trailing slash).
 
 ### Step 8. Run Next.js in development mode
