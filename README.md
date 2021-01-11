@@ -117,32 +117,8 @@ yarn install
 yarn dev
 ```
 
-Your blog should be up and running on [http://localhost:3000](http://localhost:3000)! You should see the two posts you’ve created. If it doesn't work, make sure that:
+Your application should be up and running on [http://localhost:3000](http://localhost:3000)! You should see the two products you’ve created. If it doesn't work, make sure that:
 
 - You’ve installed GraphQL to Strapi on Step 2.
 - You’ve set the Roles & Permissions in Step 5.
-- You’ve set the `status` of each post to be `published` in Step 6.
-
-The best place to debug is inside the `fetchAPI` function in `lib/api.js`. If you still need help, you can post on [GitHub discussions](https://github.com/vercel/next.js/discussions).
-
-### Step 9. Try preview mode
-
-To try preview mode, create another post like before, but:
-
-- Set the **title** as `Draft Post Test`
-- Set the **status** as `draft`.
-
-Now, if you go to the post page on localhost, you won't see this post because it’s not published. However, if you use the **Preview Mode**, you'll be able to see the change ([Documentation](https://nextjs.org/docs/advanced-features/preview-mode)).
-
-To enable the Preview Mode, go to this URL:
-
-```
-http://localhost:3000/api/preview?secret=<secret>&slug=draft-post-test
-```
-
-- `<secret>` should be the string you entered for `STRAPI_PREVIEW_SECRET`.
-- `<slug>` should be the post's `slug` attribute.
-
-You should now be able to see the draft post. To exit the preview mode, you can click **Click here to exit preview mode** at the top.
-
-
+- You’ve set the `status` of each product to be `published` in Step 6.
