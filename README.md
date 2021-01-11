@@ -64,7 +64,7 @@ Next, add these fields (you don't have to modify the settings unless specified):
 - **Media** field called **`image`** (**Single media**)
 - **UID** field called **`slug`** (attached field should be **title**)
 - **Relation** field called **`vendor`** (Product **has one** Vendor)
-![Imgur](https://i.imgur.com/V2cKGek.png)
+![Relation](https://i.imgur.com/V2cKGek.png)
 
 - **Enumeration** field `status` (the values should be **enabled** and **disabled**)
 
@@ -85,6 +85,9 @@ Next, select **Products** and click **Add New Product**.
 - You can write markdown for the **content** field.
 - For the images, you can download ones from [Unsplash](https://unsplash.com/).
 - Pick the **Vendors** you created earlier.
+
+![Vendors](https://i.imgur.com/ENZ0krb.png)
+
 - Set the **status** field to be **enabled**.
 
 ### Step 7. Set up environment variables
