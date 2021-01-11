@@ -64,6 +64,8 @@ Next, add these fields (you don't have to modify the settings unless specified):
 - **Media** field called **`image`** (**Single media**)
 - **UID** field called **`slug`** (attached field should be **title**)
 - **Relation** field called **`vendor`** (Product **has one** Vendor)
+[Imgur](https://imgur.com/V2cKGek)
+
 - **Enumeration** field `status` (the values should be **enabled** and **disabled**)
 
 Then click **Finish** and **Save**.
