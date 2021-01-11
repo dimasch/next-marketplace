@@ -1,7 +1,7 @@
 # A hybrid (SSG + SSR) example application (Marketplace)
 Demonstrations of the Next.js with React 17 features support (new JSX transform / getStaticProps and getServerSideProps Fast Refresh). And my React.js skills :)
 
-![Demo](https://i.imgur.com/KHaKGll.png)
+![Demo](https://i.imgur.com/IQSehEP.png)
 
 ## How to use
 
