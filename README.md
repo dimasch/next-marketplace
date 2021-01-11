@@ -80,7 +80,10 @@ Then select: `count`, `find`, and `findone` permissions for both **Vendor** and 
 
 Next, select **Products** and click **Add New Product**.
 
-- We recommend creating at least **8 Product records**.
+- I will recommend creating at least **8 Product records**.
+
+![Products](https://i.imgur.com/yPIqSa2.png)
+
 - Use dummy data for the text.
 - You can write markdown for the **content** field.
 - For the images, you can download ones from [Unsplash](https://unsplash.com/).
